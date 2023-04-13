@@ -39,4 +39,4 @@ const button = document.querySelector('[aria-label="valor-do-aria-label"]');
 Lembre-se de substituir `"valor-do-aria-label"` pelo valor do atributo `aria-label` do botão que você deseja clicar.
 
 ## Licença
-Este projeto é licenciado sob a Licença MIT.
+Este projeto é licenciado sob a [Licença MIT](./LICENSE).
