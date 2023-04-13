@@ -28,6 +28,8 @@ descomplica-desativar-legendas é uma extensão para navegadores baseados em Chr
 5. Clique em "Carregar extensão temporária..." e selecione qualquer arquivo da pasta onde você extraiu os arquivos da extensão (por exemplo, `manifest.json`).
 6. A extensão Desativar Legendas agora deve estar instalada e ativa.
 
+A extensão para o Firefox está em processo de revisão e, em breve, estará disponível na "Firefox Add-ons" para uma instalação mais fácil.
+
 ## Como personalizar
 
 Você pode personalizar a extensão editando os arquivos do projeto. Por exemplo, você pode ajustar o seletor do botão no arquivo `content.js` para selecionar o botão desejado com base no atributo `aria-label`. Altere o valor no seletor `querySelector`:
