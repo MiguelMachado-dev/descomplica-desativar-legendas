@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 200px;
+            padding: 10px;
+        }
+
+        /* Estilo padrão para tema claro */
+        :root {
+            --background-color: #ffffff;
+            --text-color: #000000;
+        }
+
+        /* Estilo para tema escuro */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background-color: #333333;
+                --text-color: #ffffff;
+            }
+        }
+
+        body {
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+    </style>
+</head>
+
+<body>
+    <label>
+        <input type="checkbox" id="toggleExtension">
+        Habilitar/Desabilitar Extensão
+    </label>
+    <script src="popup.js"></script>
+</body>
+
+</html>

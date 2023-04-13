@@ -1,0 +1,26 @@
+{
+  "action": {
+    "default_icon": {
+      "48": "icons/closed-caption-disabled.svg"
+    },
+    "default_popup": "popup.html"
+  },
+  "author": "Miguel Machado",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "clicabotao@miguelmachado.dev",
+      "strict_min_version": "109.0"
+    }
+  },
+  "description": "Desativa legendas automáticas do Descomplica.",
+  "icons": {
+    "48": "icons/closed-caption-disabled.svg"
+  },
+  "manifest_version": 3,
+  "name": "Desativar legenda",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "version": "1.1"
+}
