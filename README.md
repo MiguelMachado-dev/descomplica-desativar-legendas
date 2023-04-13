@@ -12,11 +12,11 @@ descomplica-desativar-legendas é uma extensão para navegadores baseados em Chr
 
 ### Instalação no Firefox
 
-1. Acesse o extensão no Firefox Add-ons: https://addons.mozilla.org/pt-BR/firefox/addon/desativar-legenda/
-2. Clique em "Adicionar ao Firefox"
-3. Um popup abrirá, clique em "Adicionar"
-4. A extensão Desativar legenda agora deve estar instalada e ativa.
-
+1. Acesse a página da extensão na loja de addons do Firefox: https://addons.mozilla.org/pt-BR/firefox/addon/desativar-legenda/
+2. Clique no botão "Adicionar ao Firefox" para iniciar o processo de instalação.
+3. Na janela que aparecerá, clique em "Adicionar" para confirmar a instalação da extensão.
+4. Aguarde até que a instalação seja concluída e a mensagem de confirmação apareça.
+5. A extensão "Desativar legenda" agora está pronta para ser usada.
 
 ### Instalação no Chromium (Google Chrome, Microsoft Edge, etc.)
 
