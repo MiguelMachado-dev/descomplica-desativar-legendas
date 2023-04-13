@@ -28,7 +28,7 @@
   },
   "browser_specific_settings": {
     "gecko": {
-      "id": "clicabotao@example.com",
+      "id": "clicabotao@miguelmachado.dev",
       "strict_min_version": "42.0"
     }
   }

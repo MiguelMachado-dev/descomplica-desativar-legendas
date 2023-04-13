@@ -1,5 +1,7 @@
+const api = typeof browser !== 'undefined' ? browser : chrome;
+
 function checkAndClickButton() {
-  browser.storage.local.get('enabled', (data) => {
+  api.storage.local.get('enabled', (data) => {
     if (data.enabled === false) {
       return;
     }
@@ -19,7 +21,7 @@ function checkAndClickButton() {
 checkAndClickButton();
 
 // Escuta a mensagem do popup
-browser.runtime.onMessage.addListener((message) => {
+api.runtime.onMessage.addListener((message) => {
   if (message.action === 'checkAndClickButton') {
     checkAndClickButton();
   }
