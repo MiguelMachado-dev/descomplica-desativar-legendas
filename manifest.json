@@ -1,26 +1,35 @@
 {
-  "action": {
-    "default_icon": {
-      "48": "icons/closed-caption-disabled.svg"
-    },
-    "default_popup": "popup.html"
-  },
-  "author": "Miguel Machado",
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "clicabotao@miguelmachado.dev",
-      "strict_min_version": "109.0"
-    }
-  },
-  "description": "Desativa legendas automáticas do Descomplica.",
-  "icons": {
-    "48": "icons/closed-caption-disabled.svg"
-  },
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Desativar legenda",
+  "version": "1.2",
+  "description": "Desativa legendas automáticas do Descomplica.",
   "permissions": [
     "activeTab",
     "storage"
   ],
-  "version": "1.1"
+  "icons": {
+    "48": "icons/closed-caption-disabled.svg"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.descomplica.com.br/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icons/closed-caption-disabled.svg"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "clicabotao@example.com",
+      "strict_min_version": "42.0"
+    }
+  }
 }

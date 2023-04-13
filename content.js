@@ -1,8 +1,4 @@
 function checkAndClickButton() {
-  if (typeof browser === 'undefined') {
-    var browser = chrome;
-  }
-
   browser.storage.local.get('enabled', (data) => {
     if (data.enabled === false) {
       return;
@@ -21,3 +17,10 @@ function checkAndClickButton() {
 }
 
 checkAndClickButton();
+
+// Escuta a mensagem do popup
+browser.runtime.onMessage.addListener((message) => {
+  if (message.action === 'checkAndClickButton') {
+    checkAndClickButton();
+  }
+});
